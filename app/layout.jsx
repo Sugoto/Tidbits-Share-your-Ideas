@@ -8,11 +8,12 @@ export const metadata = {
   description: "Discover & Share Ideas",
 };
 
-export default RootLayout = ({ children }) => (
+const RootLayout = ({ children }) => (
   <html lang="en">
     <body>
       <Provider>
         <div className="main">
+          zz
           <div className="gradient" />
         </div>
 
@@ -24,3 +25,5 @@ export default RootLayout = ({ children }) => (
     </body>
   </html>
 );
+
+export default RootLayout;
